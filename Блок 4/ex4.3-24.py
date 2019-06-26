@@ -6,10 +6,15 @@ a = input('Letter: ');
 
 n = len(str);
 sub_str = '';
+i=0;
 
-for i in range(0,n):
-    while(str[i].isalpha() and i<n):
+while (i<n):
+    while(i<n and str[i].isalpha()):
         sub_str+=str[i];
         i+=1;
+
     if (sub_str.find(a) != -1):
         print(sub_str);
+
+    sub_str = '';
+    i+=1;
