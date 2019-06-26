@@ -10,8 +10,6 @@ while (i<len(str)):
         sub_str+=str[i];
         i+=1;
 
-    print('sub_str', sub_str);
-
     i1=0;
     j1=0;
     n = len(sub_str);
@@ -21,7 +19,6 @@ while (i<len(str)):
         j1=i1+1;
 
         while(j1<n):
-            print (sub_str[i1], ' ', sub_str[j1]);
             if (sub_str[i1] == sub_str[j1]):
                 toDelete = 1;
                 break;
@@ -30,20 +27,18 @@ while (i<len(str)):
 
         i1+=1;
 
-    print(toDelete);
-
     if(toDelete==1):
-        str1='';
-        if (str[:i] != ''):
-            str1+=str[:i];
-            print(str1);
-        if (str[i+len(sub_str):] != ''):
-            str1+=str[i+len(sub_str)];
-            print(str1);
-        print(str1);
+        i1=0;
+
+        while (i1<len(str)-len(sub_str)+1):
+            str1=str[i1:i1+len(sub_str)];
+            if (str1==sub_str):
+                str=str[:i1]+str[i1+len(sub_str):];
+                i-=len(sub_str);
+                break;
+            else:
+                i1+=1;
 
     i+=1;
-
-
 
 print(str);
