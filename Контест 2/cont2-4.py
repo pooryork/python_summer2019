@@ -5,17 +5,16 @@ import sys
 #sys.stdout = open('output.txt', 'w')
 
 s = input();
-s1 = '';
-a1 = '';
+a1 = [];
 
-for i in range(0,len(s)):
-    if (s[i].isalpha() or s[i]==' '):
-        a1=s[i].lower();
-        s1+=a1;
+for i in range(len(s)):
+    if (s[i].isalpha()):
+        a1.append(s[i].lower());
 
-a = s1[::-1];
-a = s1.lower();
-if (s1 == a):
+a1 = ''.join(a1);
+a = a1[::-1];
+
+if (a1 == a):
   print("Yes");
 else:
   print("No");

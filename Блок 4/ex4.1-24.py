@@ -5,12 +5,10 @@
 str = input('String: ');
 
 n = len(str);
-str_ans = '';
 
 if (n>5):
-    str_ans+=str[:3]+str[n-3:];
+    str_ans = str[:3]+str[-3:];
 else:
-    for i in range(0, n):
-        str_ans+=str[:1];
+    str_ans = str[:1]*n;
 
 print(str_ans);

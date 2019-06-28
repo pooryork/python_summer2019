@@ -3,14 +3,17 @@
 str = input('String: ');
 i=0;
 str_ans='';
+words = ''.join(x for x in str if x.isalpha() or x == ' ').split();
 
-while (i<len(str)):
-    sub_str = '';
-    while(i<len(str) and str[i].isalpha()):
-        sub_str+=str[i];
-        i+=1;
 
-    i1=0;
+for sub_str in words[:]:
+
+    sub_set = set(sub_str.lower());
+
+    if not(len(sub_set) == len(sub_str)):
+        words.remove(sub_str);
+
+    '''i1=0;
     j1=0;
     n = len(sub_str);
     toDelete = 0;
@@ -25,9 +28,9 @@ while (i<len(str)):
             else:
                 j1+=1;
 
-        i1+=1;
+        i1+=1;'''
 
-    if(toDelete==1):
+    '''if(toDelete==1):
         i1=0;
 
         while (i1<len(str)-len(sub_str)+1):
@@ -39,6 +42,7 @@ while (i<len(str)):
             else:
                 i1+=1;
 
-    i+=1;
+    i+=1;'''
 
-print(str);
+words1 = ''.join(words);
+print(words1);

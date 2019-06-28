@@ -7,7 +7,7 @@ y = float(input('y = '));
 
 if (y<-x-1) and (x>-1) and (y>-1):
     print("Да");
-elif (y<=0 and x<=0 and ((y == -x-1) or (x==-1) or (y==-1))):
-    print("На границе");
-else:
+elif not((y<=-x-1) and (x>=-1) and (y>=-1)):
     print("Нет");
+else:
+    print('На границе');
