@@ -10,7 +10,13 @@ a = list(map(int, input().split()));
 
 maxval = max(a);
 
-while(a.index(maxval) != -1):
+while (a.count(maxval) != 0):
     a.remove(maxval);
 
-print(a);
+ans = '';
+
+for i in range (len(a)):
+    ans+=str(a[i]);
+    ans+=' ';
+
+print(ans);
