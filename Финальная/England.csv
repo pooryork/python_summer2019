@@ -1,0 +1,20 @@
+,date,home_team,away_team,home_score,away_score,tournament,city,country,neutral
+106,2018-06-02,England,Nigeria,2,1,Friendly,London,England,False
+171,2018-06-07,England,Costa Rica,2,0,Friendly,Leeds,England,False
+226,2018-06-18,Tunisia,England,1,2,FIFA World Cup,Volgograd,Russia,True
+242,2018-06-24,England,Panama,6,1,FIFA World Cup,Nizhny Novgorod,Russia,True
+260,2018-06-28,England,Belgium,0,1,FIFA World Cup,Kaliningrad,Russia,True
+268,2018-07-03,Colombia,England,1,1,FIFA World Cup,Moscow,Russia,True
+272,2018-07-07,Sweden,England,0,2,FIFA World Cup,Samara,Russia,True
+275,2018-07-11,Croatia,England,2,1,FIFA World Cup,Moscow,Russia,True
+276,2018-07-14,Belgium,England,2,0,FIFA World Cup,St. Petersburg,Russia,True
+343,2018-09-08,England,Spain,1,2,UEFA Nations League,London,England,False
+397,2018-09-11,England,Switzerland,1,0,Friendly,London,England,False
+443,2018-10-12,Croatia,England,0,0,UEFA Nations League,Rijeka,Croatia,False
+491,2018-10-15,Spain,England,2,3,UEFA Nations League,Sevilla,Spain,False
+563,2018-11-15,England,United States,3,0,Friendly,London,England,False
+612,2018-11-18,England,Croatia,2,1,UEFA Nations League,London,England,False
+794,2019-03-22,England,Czech Republic,5,0,UEFA Euro qualification,London,England,False
+840,2019-03-25,Montenegro,England,1,5,UEFA Euro qualification,Podgorica,Montenegro,False
+933,2019-06-06,England,Netherlands,1,3,UEFA Nations League,Guimaraes,Portugal,True
+989,2019-06-09,Switzerland,England,0,0,UEFA Nations League,Guimaraes,Portugal,True

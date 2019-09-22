@@ -1,0 +1,119 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <fstream>
+#include <climits>
+
+using namespace std;
+
+ifstream in("input.txt");
+
+struct Point {
+public:
+	int x;
+	int y;
+
+	Point(int x, int y) {
+
+		this->x = x;
+		this->y = y;
+
+	}
+
+};
+
+double max_dist = INT_MIN;
+
+double distance1(int x, int y) {
+
+	return (sqrt(x*x + y*y));
+
+}
+
+void print(vector<pair<int, int>> point) {
+
+	vector<pair<int, int>>::iterator i = point.begin();
+
+	for (i; i != point.end(); i++) {
+
+		cout << "(" << (*i).first << " , " << (*i).second << ")" << endl;
+
+	}
+
+	cout << endl;
+
+}
+bool f(pair <int, int> A) {
+
+	if (A.first > 0 && A.second > 0) return true;
+	return false;
+
+}
+
+bool f1(pair <int, int> A) {
+
+	if (A.first == A.second) return true;
+	return false;
+
+}
+
+bool compare(pair<int,int> A, pair<int,int> B)
+{
+	if (distance1(A.first, A.second) < distance1(B.first, B.second)) {
+
+		return true;
+
+	}
+	return false;
+}
+
+int main()
+{
+	setlocale(LC_ALL, "rus");
+
+	vector<pair<int, int>> point;
+
+	int x, y, n = 0;
+
+	while (in >> x) {
+
+		in >> y;
+		point.push_back(make_pair(x, y));
+		++n;
+
+	}
+
+	vector<pair<int, int>>::iterator i = point.begin();
+
+	print(point);
+
+
+	cout << "а) ”далить все точки из I четверти: " << endl;
+
+	point.erase(remove_if(point.begin(), point.end(), f), point.end());
+
+	print(point);
+
+	cout << "б) ѕодсчитать количество точек, у которых x и y совпадают" << endl;
+	i = point.begin();
+	int s = 0;
+
+	s = count_if(point.begin(), point.end(), f1);
+
+	cout << s << endl << endl;
+
+	cout << "в) Ќайти наиболее удалЄнную от начала координат точку" << endl;
+
+	i = max_element(point.begin(), point.end(), compare);
+
+	cout << "(" << (*i).first << " , " << (*i).second << ")" << endl << endl;
+
+	cout << "г) –асположить в пор€дке возрастани€ координаты x" << endl;
+
+	sort(point.begin(), point.end());
+
+	print(point);
+
+	return 0;
+}
+

@@ -1,0 +1,53 @@
+#include <iostream>
+#include <stack>
+
+using namespace std;
+
+int main()
+{
+	stack <int> stack1, stack2;
+	int a, n, i = 1, num = 0;
+	cin >> n;
+
+	bool f = false;
+
+	while (i <= n) {
+
+		cin >> a;
+		stack1.push(a);
+		if (a % 3 == 0 && f == false) {
+
+			num = i;
+			f = true;
+
+		}
+
+		++i;
+
+	}
+
+	num = n - num + 1;
+	i = 1;
+
+	while (!stack1.empty()) {
+
+		a = stack1.top();
+		stack1.pop();
+
+		if (num != i)
+			stack2.push(a);
+
+		++i;
+
+	}
+
+	while (!stack2.empty()) {
+
+		cout << stack2.top() << " ";
+		stack2.pop();
+
+	}
+
+	return 0;
+}
+

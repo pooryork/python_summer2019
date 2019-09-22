@@ -1,0 +1,103 @@
+#include <iostream>
+#include <queue>
+#include <string>
+#include <fstream>
+
+using namespace std;
+
+ifstream in("input.txt");
+ofstream out("output.txt");
+
+int main()
+{
+	int a, b;
+	in >> a >> b;
+
+	queue<int> **QArray = new queue<int> *[a]; // массив указателей на очереди
+	for (int i = 0; i < a; i++)
+	{
+		QArray[i] = new queue<int>; // создание объекта очередь
+	}
+
+	for (int i = 0; i < b; ++i) {
+
+		string str;
+		in >> str;
+
+		string str1;
+		str1 += str[0];
+		str1 += str[1];
+		str1 += str[2];
+
+		if (str1 == "PUS") {
+
+			string str2, str3;
+			int i = 5;
+
+			while (i < str.length() && str[i] != ',') {
+
+				str2 += str[i];
+				++i;
+
+			}
+
+			++i;
+
+			while (i < str.length() && str[i] != ')') {
+
+				str3 += str[i];
+				++i;
+
+			}
+
+
+			int num = 0;
+			num = atoi(str2.c_str());
+			int n = 0;
+			n = atoi(str3.c_str());
+
+			QArray[num-1]->push(n);
+
+		}
+
+		else if (str1 == "POP") {
+
+			string str2;
+			int i = 4;
+
+			while (i < str.length() && str[i] != ')') {
+
+				str2 += str[i];
+				++i;
+
+			}
+
+			int num = 0;
+			num = atoi(str2.c_str());
+
+			out << QArray[num-1]->front() << " ";
+			QArray[num-1]->pop();
+
+		}
+
+		else if (str1 == "TOP") {
+
+			string str2;
+			int i = 4;
+
+			while (i < str.length() && str[i] != ')') {
+
+				str2 += str[i];
+				++i;
+
+			}
+
+			int num = 0;
+			num = atoi(str2.c_str());
+
+			out << QArray[num-1]->front() << " ";
+
+		}
+	}
+	return 0;
+}

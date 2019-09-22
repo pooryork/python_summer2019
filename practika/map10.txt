@@ -1,0 +1,59 @@
+#include <map>
+#include <iterator>
+#include <string>
+#include <fstream>
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+ifstream in("input.txt");
+ofstream out("output.txt");
+
+int main()
+{
+	setlocale(LC_ALL, "rus");
+	map <string, int> words;
+	string tmp, str_num;
+	vector <string> vec_ans;
+
+	while (in >> tmp)
+	{
+		words[tmp]++;
+		if (isdigit(tmp[0]))
+			str_num = tmp;
+	}
+
+	int num = atoi(str_num.c_str());
+
+	cout << num << endl;
+	string ans;
+
+	for (auto i = words.begin(); i != words.end(); ++i) {
+
+		string st = i->first;
+		int st2 = i->second;
+		cout << st << " " << st2 << endl;
+
+		if (isalpha(st[0]) && st2==num) {
+
+			vec_ans.push_back(st);
+
+		}
+
+	}
+	cout << endl;
+
+	if (!vec_ans.empty()) {
+		for (int i = 0; i < vec_ans.size(); ++i) {
+
+			cout << vec_ans[i] << " ";
+
+		}
+		cout << endl;
+	}
+	else cout << "No words found" << endl;
+
+	return 0;
+}
+

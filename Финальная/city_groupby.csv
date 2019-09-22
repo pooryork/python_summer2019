@@ -1,0 +1,406 @@
+city,home_score,away_score
+Aarhus,2,0
+Abidjan,1,0
+Abu Dhabi,33,31
+Accra,4,1
+Addis Ababa,0,2
+Ahmedabad,13,13
+Al Ahmadi,1,0
+Al Ain,16,18
+Al Farwaniyah,3,4
+Al Ram,2,4
+Al Rayyan,1,1
+Al Wakrah,1,1
+Al-Ain,0,0
+Alanya,0,0
+Alexandria,22,8
+Algiers,2,3
+Almada,0,0
+Amman,11,5
+Amsterdam,7,4
+Andorra la Vella,2,11
+Anglesey,65,33
+Antalya,2,3
+Antananarivo,1,0
+Apia,62,83
+Arequipa,2,3
+Arlington,3,3
+Asaba,1,0
+Askeran,8,10
+Astana,8,3
+Asuncion,2,0
+Athens,4,7
+Athersley,6,2
+Atlanta,3,1
+Attard,4,14
+Aveley,7,2
+Awassa,1,1
+Bacolod,3,3
+Bahir Dar,0,0
+Bakau,4,2
+Baku,8,9
+Bamako,3,0
+Bandar Seri Begawan,1,0
+Bangkok,9,13
+Bangui,0,0
+Barcelona,1,3
+Basel,3,3
+Basra,1,1
+Basseterre,1,3
+Bata,1,2
+Beauvais,1,3
+Bedfont,3,1
+Beer Sheva,2,0
+Beirut,2,1
+Belek,1,0
+Belfast,9,5
+Belgrade,12,5
+Belo Horizonte,9,5
+Bergamo,0,0
+Bishan,5,1
+Bishkek,7,5
+Bissau,2,1
+Blantyre,1,1
+Blida,1,0
+Bodmin,5,0
+Bogota,3,0
+Bologna,1,1
+Bondoufle,1,0
+Borisov,0,3
+Bouaké,4,0
+Boulogne-Sur-Mer,3,1
+Bracknell,12,1
+Braga,2,2
+Brasilia,2,0
+Brazzaville,5,3
+Brest,1,1
+Bridgetown,2,4
+Bridgeview,2,0
+Brisbane,5,1
+Bromley,10,4
+Brussels,21,4
+Brøndby,2,0
+Bucharest,0,0
+Budapest,10,4
+Buenos Aires,4,0
+Bujumbura,1,1
+Busan,1,0
+Cairo,32,34
+Cardiff,7,7
+Carshalton,10,6
+Cary,1,0
+Casablanca,4,0
+Charlotte,9,3
+Cheonan,2,2
+Chester,3,0
+Chicago,0,1
+Chișinău,5,5
+Chorzow,2,4
+Chorzów,3,2
+Cikarang,5,1
+Cincinnati,0,3
+Ciudad del Este,1,1
+Cleveland,8,4
+Cluj-Napoca,4,1
+Colombo,1,4
+Conakry,1,1
+Copenhagen,6,2
+Coquimbo,2,1
+Cordoba,2,0
+Cotonou,3,1
+Couva,0,1
+Craiova,1,0
+Cádiz,0,2
+Daegu,2,0
+Dakar,2,1
+Damman,1,0
+Dar es Salaam,7,0
+Denver,3,4
+Dhaka,20,9
+Doha,32,21
+Dubai,18,16
+Dublin,5,2
+Durban,27,23
+Dushanbe,1,1
+East Hartford,1,1
+East Riffa,6,3
+East Rutherford,0,2
+Ekaterinburg,3,6
+Elbasan,4,0
+Elche,6,0
+Enfield,14,14
+Eskişehir,4,0
+Eupen,2,2
+Faro-Loulé,1,1
+Fort-de-France,3,2
+Francistown,0,1
+Franconville,2,0
+Frisco,2,3
+Gaborone,1,0
+Gdańsk,0,1
+Gelsenkirchen,2,2
+Geneva,3,4
+Genk,1,0
+Genoa,1,1
+Georgetown,1,1
+Gibraltar,4,11
+Glasgow,8,10
+Glendale,3,1
+Gothenburg,0,0
+Goyang,2,0
+Graz,8,4
+Grödig,0,2
+Guangzhou,3,0
+Guatemala City,4,0
+Guimaraes,2,4
+Guingamp,2,2
+Haifa,7,4
+Hamilton,1,0
+Hanoi,9,2
+Harare,2,1
+Haringey,18,16
+Harrison,9,2
+Harrogate,9,2
+Havana,5,0
+Herning,2,0
+Hong Kong,0,3
+Honiara,3,1
+Houston,7,9
+Innsbruck,5,2
+Isa Town,9,0
+Ismaila,1,1
+Ismailia,4,3
+Istanbul,2,1
+Jakarta,3,1
+Jeddah,0,1
+Jeonju,1,3
+Juba,2,5
+Kaliningrad,5,5
+Kallang,12,6
+Kampala,0,0
+Kansas City,2,1
+Kaohsiung,1,1
+Kazan,9,10
+Kematen,0,0
+Kent,6,3
+Kharkiv,1,0
+Kigali,1,2
+Kingston,3,3
+Kingstown,3,0
+Kira,1,0
+Klagenfurt,3,1
+Kobe,0,1
+Konya,2,1
+Krasnodar,0,1
+Kuala Lumpur,29,9
+Kuwait,1,1
+Kuwait City,3,4
+Landover,5,0
+Las Palmas,1,0
+Lautoka,4,1
+Leeds,2,0
+Leipzig,3,0
+Leverkusen,2,1
+Libreville,4,2
+Lima,3,5
+Lisbon,5,1
+Liverpool,0,2
+Liège,2,1
+Ljubljana,4,7
+Llagostera,2,3
+Lobatse,2,0
+Lomé,1,1
+London,25,15
+Los Angeles,22,2
+Luanda,6,2
+Lucerne,6,0
+Lugano,2,1
+Lusaka,6,2
+Luxembourg,1,4
+Luxembourg City,13,8
+Luzern,5,2
+Lviv,7,0
+Lyon,1,1
+Machakos,1,1
+Madrid,10,4
+Mainz,8,0
+Majadahonda,2,1
+Malacca City,0,1
+Malé,7,0
+Managua,0,1
+Mandalay,4,3
+Manila,2,1
+Manzini,0,2
+Marbella,0,0
+Marrakech,2,4
+Martakert,12,1
+Martuni,5,8
+Mendoza,2,0
+Mexico City,1,0
+Miami Gardens,5,3
+Milan,0,0
+Minsk,6,0
+Mitsamiouli,1,1
+Monrovia,3,3
+Montevideo,6,0
+Moscow,22,15
+Mumbai,13,8
+Munich,0,0
+Muscat,7,3
+Nairobi,1,0
+Nanjing,3,0
+Nantes,2,0
+Nashville,4,1
+Nassau,6,1
+Netanya,7,0
+New Jersey,4,1
+Niamey,7,5
+Nice,4,1
+Nicosia,8,6
+Niigata,3,0
+Nilphamari Sadar,0,1
+Nizhny Novgorod,11,9
+Nouakchott,3,0
+Nur-Sultan,4,0
+Nursultan,3,4
+Olomouc,3,0
+Orlando,1,0
+Osijek,4,2
+Oslo,10,5
+Ossett,6,4
+P'yŏngyang,2,0
+Panama City,1,4
+Paris,9,2
+Parma,6,0
+Pasadena,0,0
+Penafiel,2,0
+Philadelphia,2,0
+Philipsburg,1,1
+Phnom Penh,7,10
+Ploiești,5,0
+Podgorica,6,13
+Polokwane,22,16
+Port Harcourt,1,1
+Port Vila,5,4
+Porto,5,2
+Porto Alegre,9,7
+Poznań,2,2
+Prague,4,4
+Praia,3,0
+Pristina,12,4
+Queretaro,0,1
+Quetzaltenango,1,0
+Radès,2,1
+Rakvere,2,0
+Rancagua,2,3
+Reykjavík,8,11
+Riga,3,15
+Rijeka,2,1
+Rio de Janeiro,6,9
+Riyadh,10,7
+Rize,0,0
+Robina,0,0
+Rostov-on-Don,12,8
+Rotherhithe,6,4
+Rotterdam,6,0
+Saint Paul,6,0
+Saint-Denis,2,0
+Saitama,4,3
+Salvador,2,4
+Samara,3,8
+San Diego,3,1
+San Jose,2,0
+San José,10,1
+San Juan,5,1
+San Nicolás de los Garza,3,2
+San Pedro,1,0
+San Salvador,1,0
+Sankt Pölten,0,4
+Santa Clara,2,4
+Sarajevo,4,1
+Saransk,12,6
+Schwaz,0,1
+Schwechat,1,0
+Seoul,5,3
+Serravalle,0,8
+Sevilla,2,3
+Seville,2,0
+Sfax,1,2
+Sharjah,7,6
+Shkodër,0,6
+Sinsheim,2,1
+Skopje,14,7
+Slough,9,2
+Sochi,14,9
+Sofia,7,6
+Solna,0,0
+St. Gallen,8,4
+St. George's,1,5
+St. John's,0,2
+St. Peter,2,1
+St. Petersburg,11,7
+Stepanakert,9,6
+Stockholm,10,5
+Suez,7,7
+Suita,3,0
+Suphan Buri,1,0
+Sutton,17,19
+Suva,4,1
+Suwon,0,0
+Suzhou,0,0
+Sydney,3,0
+São Paulo,6,10
+Taipa,1,4
+Taipei,11,12
+Tallinn,5,10
+Tampa,2,4
+Tampere,7,0
+Tangiers,0,1
+Tashkent,11,2
+Tbilisi,9,3
+Tegucigalpa,1,0
+Teheran,1,0
+Tehran,8,1
+Temuco,4,1
+The Valley,1,2
+Thiès,2,0
+Toyota,4,0
+Trabzon,1,2
+Trnava,16,5
+Turin,3,2
+Turku,1,0
+Tórshavn,5,11
+Udine,2,0
+Uherské Hradiště,1,2
+Ulaanbaatar,21,3
+Ulan Bator,0,2
+Ulsan,1,0
+Uyo,4,0
+Vaduz,4,8
+Valencia,2,1
+Varaždin,1,2
+Victoria,2,11
+Vienna,3,4
+Vientiane,8,15
+Vila-real,1,1
+Villa Tunari,2,2
+Vilnius,4,9
+Vitoria-Gasteiz,4,2
+Volgograd,5,4
+Warsaw,10,0
+Washington,1,3
+Wattens,1,1
+Windhoek,3,2
+Wolfsburg,1,1
+Wrexham,1,0
+Wroclaw,1,1
+Wuhan,1,1
+Yangon,0,3
+Yaoundé,4,0
+Yerevan,9,4
+Yokohama,0,3
+Zagreb,5,3
+Zenica,3,2
+Zürich,0,3
+Évian-les-Bains,1,4
+Ōita,1,1

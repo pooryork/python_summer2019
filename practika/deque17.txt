@@ -1,0 +1,60 @@
+#include <iostream>
+#include <deque>
+#include <iterator>
+#include <fstream>
+#include <string>
+#include <algorithm>
+
+using namespace std;
+
+ifstream in("input.txt");
+
+int main()
+{
+	deque <string> deque1;
+	int n = 0;
+
+	while (in.peek() != EOF) {
+
+		string str;
+		in >> str;
+		deque1.push_back(str);
+                ++n;
+
+	}
+
+	for (int i = 0; i < n; ++i) {
+
+	deque <string>::iterator it;
+	bool flag = false;
+
+	for (int j = i+1; j < n; ++j) {
+		if (deque1[i] == deque1[j]) {
+			it = deque1.begin();
+			advance(it, j);
+			deque1.erase(it);
+			--n;
+			--j;
+			flag = true;
+		}
+	}
+
+	if (flag == true) {
+		it = deque1.begin();
+		advance(it, i);
+		deque1.erase(it);
+		--n;
+		i = -1;
+		++s;
+		flag = false;
+	}
+}
+
+	copy(deque1.begin(), deque1.end(), ostream_iterator<string>(cout, " "));
+	cout << endl << endl;
+
+	in.close();
+
+	return 0;
+}
+

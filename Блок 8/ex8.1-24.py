@@ -18,19 +18,14 @@ import random
 
 print('1. Сгенерировать матрицу размером 6*2, заполненную целыми числами.');
 a = np.empty ((2, 6), dtype = int);
-for i in range(2):
-    for j in range(6):
-        a[i, j] = random.randint(-100, 100);
+a = np.random.randint(-100,100, (2,6), dtype = int);
 print(a);
 
 print('2. Вывести на экран элемент с индексами [4,2].');
 print(a[1][3]);
 
 print('3. Вывести на экран 3 столбец матрицы.');
-a0 = list();
-for i in range(2):
-    a0.append(a[i][3]);
-print(a0);
+print(a[:,3]);
 
 print('4. Вывести на экран 1 столбец матрицы в обратном порядке');
 a1 = list();

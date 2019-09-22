@@ -1,0 +1,37 @@
+#include<iostream>
+#include<vector>
+
+using namespace std;
+
+int main()
+{
+	int n; cin >> n;
+	vector <int> vector1;
+	for (int i = 0; i < n; ++i) {
+
+		int a; cin >> a;
+		vector1.push_back(a);
+
+
+	}
+	vector <int>::iterator it;
+	cout << "K = ";
+	int k; cin >> k;
+
+	it = vector1.begin() + k;
+
+	if (k < n) {
+
+		vector1.insert(it - 1, *(it - 1));
+		++n;
+
+		for (int i = 0; i < n; ++i) {
+
+			cout << vector1[i] << " ";
+
+		}
+	}
+	else cout << "error" << endl;
+
+	return 0;
+}

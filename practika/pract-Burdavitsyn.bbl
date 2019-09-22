@@ -1,0 +1,73 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibAuthor\def\BibAuthor#1{\emph{#1}}\else\fi
+\ifx\undefined\BibTitle\def\BibTitle#1{#1}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\def\BibAnnote#1{}\else\fi
+\ifx\undefined\BibSection\def\BibSection#1#2#3{}\else\fi
+
+\bibitem{Ammeral}
+\selectlanguageifdefined{russian}
+\BibAuthor{Аммерааль,~.} \BibTitle{STL для программистов на С++}~/ .~Аммерааль.
+  "---
+\newblock Москва: <<ДМК>>, 1999. "---
+\newblock {\cyr\CYRS.}~240.
+
+\bibitem{cplusplus}
+\selectlanguageifdefined{english}
+\BibTitle{The C++ Resources Network [{Э}лектронный ресурс]}. "---
+\newblock URL:~\url{http://www.cplusplus.com/reference/stl/} (Дата обращения
+  15.07.2016).
+
+\bibitem{Jo}
+\selectlanguageifdefined{russian}
+\BibAuthor{Джосаттис,~.~.} \BibTitle{Стандартная библиотека С++: справочное
+  руководство}~/ .~. Джосаттис. "---
+\newblock Москва: ООО <<И. Д. Вильямс>>, 2014. "---
+\newblock {\cyr\CYRS.}~1136.
+
+\bibitem{Satter}
+\selectlanguageifdefined{russian}
+\BibAuthor{Саттер,~.} \BibTitle{Новые сложные задачи на С++}~/ .~Саттер. "---
+\newblock Москва: Издательский дом <<Вильямс>>, 2005. "---
+\newblock {\cyr\CYRS.}~272.
+
+\bibitem{SatterD}
+\selectlanguageifdefined{russian}
+\BibAuthor{Саттер,~.} \BibTitle{Новые сложные задачи на С++. Серия С++
+  In-Depth}~/ .~Саттер. "---
+\newblock Москва: Издательский дом <<Вильямс>>, 2008. "---
+\newblock {\cyr\CYRS.}~400.
+
+\bibitem{Meyers}
+\selectlanguageifdefined{russian}
+\BibAuthor{Скотт Мейерс,}. \BibTitle{Эффективное использование C++. Библиотека
+  программиста}~/ Скотт Мейерс. "---
+\newblock СПб: Питер, 2002. "---
+\newblock {\cyr\CYRS.}~224.
+
+\bibitem{Ogneva}
+\selectlanguageifdefined{russian}
+\BibAuthor{Огнёва,~.~.} \BibTitle{Основы программирования на С++: Учеб. пособие
+  в 2 ч. Часть 2.}~/ .~. Огнёва, .~. Кудрина. "---
+\newblock Саратов: ООО Издательский Центр <<Наука>>, 2009. "---
+\newblock {\cyr\CYRS.}~100.
+
+\bibitem{Kudrina}
+\selectlanguageifdefined{russian}
+\BibAuthor{Огнёва,~.~.} \BibTitle{Структуры даннх и алгоритмы:программирование
+  на языке С++: Учеб. пособие в 2 ч. Часть 1.}~/ .~. Огнёва, .~. Кудрина. "---
+\newblock Саратов: ООО Издательский Центр <<Наука>>, 2013. "---
+\newblock {\cyr\CYRS.}~88.
+
+\bibitem{Course}
+\selectlanguageifdefined{english}
+\BibTitle{Электронный курс: Ознакомительная (учебная) практика МОАИС
+  [{Э}лектронный ресурс]}. "---
+\newblock URL:~\url{https://course.sgu.ru/course/view.php?id=1022} (Дата
+  обращения 15.07.2016).
+
+\end{thebibliography}

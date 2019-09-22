@@ -1,0 +1,124 @@
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <stack>
+
+using namespace std;
+
+ifstream in("input.txt");
+ofstream out("output.txt");
+
+template <typename T>
+class myStack
+{
+	struct Element
+	{
+		T inf;
+		Element *next;
+		Element(T x, Element *p) : inf(x), next(p) {}
+	};
+	Element *head; //указатель на вершину стека
+public:
+	myStack() : head(0) {} //конструктор стека
+	bool Empty() //проверка стека на пустоту
+	{
+		return head == 0;
+	}
+
+	T Pop() //взять элемент из стека
+	{
+		if (Empty()) //если стек пуст, то ничего не делать
+		{
+			return 0;
+		}
+		Element *r = head; //иначе запоминаем указатель на вершину стека
+		T i = r->inf; //запоминаем информацию из верхнего элемента
+		head = r->next; //передвигаем указатель стека на следующий
+						//от вершины элемент
+		delete r; //освобождаем память, на которую указывает r
+		return i; //возвращаем значение
+	}
+	void Push(T data) //добавить элемент в стек
+	{
+		head = new Element(data, head);
+	}
+	T Тор() //просмотреть элемент на вершине стека
+	{
+		if (Empty()) //если стек пуст, то возвращаем 0
+		{
+			return 0;
+		}
+		else //иначе возвращаем информацию из вершины стека
+		{
+			return head->inf;
+		}
+	}
+};
+
+template <typename T>
+class ArrStack {
+private:
+	int size;
+	T *array;
+
+public:
+	ArrStack(int maxSize) {
+		size = 0;
+		array = new T[maxSize];
+	}
+
+	bool Empty() {
+
+		return size == 0;
+
+	}
+
+	void Push(const T newElement) {
+		array[size] = newElement;
+		size++;
+	}
+
+	void Pop() {
+		size--;
+	}
+
+	T Top() {
+		return array[size - 1];
+	}
+};
+
+int main()
+{
+	
+	int n = 0, buf;
+	// исследовать c разными типами, разным количеством элементов
+	//kazachkova.anna@gmail.com
+
+	//для самописного stack 
+	
+	myStack <int> stack1;
+
+	while (in >> buf) 
+		stack1.Push(buf);
+
+	while (!stack1.Empty())
+		cout << stack1.Pop() << " ";
+	cout << endl << endl;
+
+	//для stack на основе массива
+
+	ArrStack <int> stack2(100);
+
+	while (in >> buf)
+		stack2.Push(buf);
+
+	while (!stack2.Empty()) {
+		cout << stack2.Top() << " ";
+		stack2.Pop();
+	}
+	cout << endl;
+
+	return 0;
+}
+
+

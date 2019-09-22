@@ -1,0 +1,88 @@
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <string>
+#include <set>
+#include <iterator>
+#include <algorithm>
+
+using namespace std;
+ifstream in("input.txt");
+ofstream out("output.txt");
+
+int main()
+{
+	int c = 0;
+	setlocale(LC_ALL, "rus");
+	string i;
+	vector <string> v;
+	set <string> set1, set2, set3;
+	while (in.peek()!=EOF)
+	{
+		getline(in, i);
+		v.push_back(i);
+	}
+
+	for (int i = 0; i < v.size(); ++i)
+		cout << v[i] << endl;
+	cout << endl;
+
+	for (int i = 0; i < v.size(); ++i) {
+
+		string str = v[i];
+
+		if (str[str.length() - 1] == '!') {
+
+			string str_buf;
+			int j = 0;
+			while (j < str.length()) {
+
+				if (isalpha(str[j])) {
+					str[j] = tolower(str[j]);
+					str_buf += str[j];
+				}
+				else {
+					set1.insert(str_buf);
+					str_buf.clear();
+				}
+				++j;
+			}
+		}
+
+		else {
+
+			string str_buf;
+			int j = 0;
+			while (j < str.length())  {
+
+				if (isalpha(str[j])) {
+					str[j] = tolower(str[j]);
+					str_buf += str[j];
+				}
+				else {
+					set2.insert(str_buf);
+					str_buf.clear();
+				}
+				++j;
+			}
+		}
+			
+
+	}
+
+	copy(set1.begin(), set1.end(), ostream_iterator <string>(cout, " "));
+	cout << endl;
+	copy(set2.begin(), set2.end(), ostream_iterator <string>(cout, " "));
+	cout << endl << endl;
+
+	set_difference(set2.begin(), set2.end(), set1.begin(), set1.end(), inserter(set3, set3.begin()));
+
+	if (!set3.empty())
+		copy(set3.begin(), set3.end(), ostream_iterator <string>(cout, " "));
+	else cout << "Not unique words found" << endl;
+
+
+	return 0;
+}
+
+

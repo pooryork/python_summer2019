@@ -10,7 +10,7 @@ import time
 
 #10x10
 n = 10;
-print('for',n,'elements:');
+print('for', n,'elements:');
 
 time1 = time.time();
 

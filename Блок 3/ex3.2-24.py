@@ -9,4 +9,7 @@ s = 0.0;
 while (a>s*b):
     s+=1;
 
+if (s*b > a):
+    s-=1;
+
 print(s);

@@ -1,0 +1,83 @@
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <algorithm>
+#include <set>
+#include <iterator>
+
+using namespace std;
+ifstream in("input.txt");
+ofstream out("output.txt");
+
+int main()
+{
+	int c = 0;
+	setlocale(LC_ALL, "rus");
+	int i;
+	vector <int> v;
+	set <int> set1, set2;
+	while (in >> i)
+	{
+		v.push_back(i);
+	}
+
+	copy(v.begin(), v.end(), ostream_iterator <int>(cout, " "));
+
+	cout << endl;
+	for (int i = 0; i < v.size(); i++)
+	{
+
+		if (v[i] % 10 != 0) {
+
+			int k = abs(v[i]);
+			while (k > 0)
+			{
+				int a = k % 10;
+				k = k / 10;
+				set1.insert(a);
+
+			}
+		}
+	}
+
+	for (int i = 0; i < v.size(); ++i) {
+
+		if (v[i] % 10 == 0) {
+
+			int k = abs(v[i]);
+
+			while (k != 0) {
+
+				int a = k % 10;
+				bool f = false;
+
+				for (auto it = set1.begin(); it != set1.end(); ++it) {
+
+					if (*it == a) {
+
+						f = true;
+						break;
+
+					}
+
+				}
+
+				if (f == false) set2.insert(a);
+
+				k /= 10;
+
+			}
+
+		}
+
+	}
+
+	if (!set2.empty()) {
+		copy(set2.begin(), set2.end(), ostream_iterator <int>(cout, " "));
+		cout << endl;
+	}
+	else cout << "No elements found" << endl;
+
+	return 0;
+}
+

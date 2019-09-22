@@ -1,0 +1,16 @@
+,date,home_team,away_team,home_score,away_score,tournament,city,country,neutral
+112,2018-06-02,Austria,Germany,2,1,Friendly,Klagenfurt,Austria,False
+185,2018-06-08,Germany,Saudi Arabia,2,1,Friendly,Leverkusen,Germany,False
+222,2018-06-17,Germany,Mexico,0,1,FIFA World Cup,Moscow,Russia,True
+241,2018-06-23,Germany,Sweden,2,1,FIFA World Cup,Sochi,Russia,True
+253,2018-06-27,South Korea,Germany,2,0,FIFA World Cup,Kazan,Russia,True
+303,2018-09-06,Germany,France,0,0,UEFA Nations League,Munich,Germany,False
+369,2018-09-09,Germany,Peru,2,1,Friendly,Sinsheim,Germany,False
+465,2018-10-13,Netherlands,Germany,3,0,UEFA Nations League,Amsterdam,Netherlands,False
+500,2018-10-16,France,Germany,2,1,UEFA Nations League,Paris,France,False
+564,2018-11-15,Germany,Russia,3,0,Friendly,Leipzig,Germany,False
+624,2018-11-19,Germany,Netherlands,2,2,UEFA Nations League,Gelsenkirchen,Germany,False
+770,2019-03-20,Germany,Serbia,1,1,Friendly,Wolfsburg,Germany,False
+821,2019-03-24,Netherlands,Germany,2,3,UEFA Euro qualification,Amsterdam,Netherlands,False
+962,2019-06-08,Belarus,Germany,0,2,UEFA Euro qualification,Borisov,Belarus,False
+1005,2019-06-11,Germany,Estonia,8,0,UEFA Euro qualification,Mainz,Germany,False

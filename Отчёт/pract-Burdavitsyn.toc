@@ -1,0 +1,33 @@
+\babel@toc {russian}{}
+\contentsline {section}{\cyrillictext \CYRV \CYRV \CYRE \CYRD \CYRE \CYRN \CYRI \CYRE }{4}{section*.1}
+\contentsline {section}{\numberline {1}\IeC {\CYRI }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }\IeC {\cyri }\IeC {\cyrya } \IeC {\cyrya }\IeC {\cyrz }\IeC {\cyrery }\IeC {\cyrk }\IeC {\cyra } Python}{5}{section.1}
+\contentsline {section}{\numberline {2}\IeC {\CYRO }\IeC {\cyrs }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyrery } \IeC {\cyrs }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyrt }\IeC {\cyra }\IeC {\cyrk }\IeC {\cyrs }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyra } Python}{6}{section.2}
+\contentsline {subsection}{\numberline {2.1}\IeC {\CYRO }\IeC {\cyrb }\IeC {\cyrshch }\IeC {\cyri }\IeC {\cyre } \IeC {\cyrs }\IeC {\cyrv }\IeC {\cyre }\IeC {\cyrd }\IeC {\cyre }\IeC {\cyrn }\IeC {\cyri }\IeC {\cyrya }}{6}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}\IeC {\CYRU }\IeC {\cyrs }\IeC {\cyrl }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyrn }\IeC {\cyrery }\IeC {\cyrishrt } \IeC {\cyro }\IeC {\cyrp }\IeC {\cyre }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr } if-else}{6}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}\IeC {\CYRC }\IeC {\cyri }\IeC {\cyrk }\IeC {\cyrl }\IeC {\cyrery }}{7}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}\IeC {\CYRC }\IeC {\cyri }\IeC {\cyrk }\IeC {\cyrl } \IeC {\cyrs } \IeC {\cyrp }\IeC {\cyra }\IeC {\cyrr }\IeC {\cyrm }\IeC {\cyre }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrm } (for)}{7}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}\IeC {\CYRC }\IeC {\cyri }\IeC {\cyrk }\IeC {\cyrl } \IeC {\cyrs } \IeC {\cyrp }\IeC {\cyrr }\IeC {\cyre }\IeC {\cyrd }\IeC {\cyru }\IeC {\cyrs }\IeC {\cyrl }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyri }\IeC {\cyre }\IeC {\cyrm } (while)}{7}{subsubsection.2.3.2}
+\contentsline {subsection}{\numberline {2.4}\IeC {\CYRF }\IeC {\cyru }\IeC {\cyrn }\IeC {\cyrk }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyri }}{8}{subsection.2.4}
+\contentsline {section}{\numberline {3}\IeC {\CYRS }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyru }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyru }\IeC {\cyrr }\IeC {\cyrery } \IeC {\cyrd }\IeC {\cyra }\IeC {\cyrn }\IeC {\cyrn }\IeC {\cyrery }\IeC {\cyrh } \IeC {\cyrv } Python}{10}{section.3}
+\contentsline {subsection}{\numberline {3.1}\IeC {\CYRS }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrk }\IeC {\cyri }}{10}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}\IeC {\CYRS }\IeC {\cyrp }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyri }}{12}{subsection.3.2}
+\contentsline {section}{\numberline {4}\IeC {\CYRB }\IeC {\cyri }\IeC {\cyrb }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrk }\IeC {\cyra } Random}{13}{section.4}
+\contentsline {section}{\numberline {5}\IeC {\CYRB }\IeC {\cyri }\IeC {\cyrb }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrk }\IeC {\cyra } NumPy}{17}{section.5}
+\contentsline {section}{\numberline {6}\IeC {\CYRB }\IeC {\cyri }\IeC {\cyrb }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrk }\IeC {\cyra } MATHPLOTLIB}{19}{section.6}
+\contentsline {section}{\numberline {7}\IeC {\CYRB }\IeC {\cyri }\IeC {\cyrb }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrk }\IeC {\cyra } Pandas}{21}{section.7}
+\contentsline {section}{\numberline {8}\IeC {\CYRF }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyrsftsn }\IeC {\cyrn }\IeC {\cyra }\IeC {\cyrya } \IeC {\cyrz }\IeC {\cyra }\IeC {\cyrd }\IeC {\cyra }\IeC {\cyrch }\IeC {\cyra }}{22}{section.8}
+\contentsline {section}{\cyrillictext \CYRZ \CYRA \CYRK \CYRL \CYRYU \CYRCH \CYRE \CYRN \CYRI \CYRE }{27}{section*.8}
+\redeflsection 
+\ttl@change@i {\@ne }{section}{3ex}{\hspace {-3ex}}{\appendixname ~\thecontentslabel \hspace {2ex}}{\hspace {2.3em}}{\titlerule *[0.98ex]{.}\contentspage }\relax 
+\ttl@change@v {section}{}{}{}\relax 
+\contentsline {section}{\numberline {\CYRA }\IeC {\CYRV }\IeC {\cyre }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyro }\IeC {\cyrr }}{28}{appendix.A}
+\contentsline {section}{\numberline {\CYRB }\IeC {\CYRC }\IeC {\cyri }\IeC {\cyrk }\IeC {\cyrl }\IeC {\cyrery }}{30}{appendix.B}
+\contentsline {section}{\numberline {\CYRV }\IeC {\CYRF }\IeC {\cyru }\IeC {\cyrn }\IeC {\cyrk }\IeC {\cyrc }\IeC {\cyri }\IeC {\cyri }}{31}{appendix.C}
+\contentsline {section}{\numberline {\CYRG }\IeC {\CYRS }\IeC {\cyrt }\IeC {\cyrr }\IeC {\cyro }\IeC {\cyrk }\IeC {\cyri }}{32}{appendix.D}
+\contentsline {section}{\numberline {\CYRD }\IeC {\CYRS }\IeC {\cyrp }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrk }\IeC {\cyri }}{33}{appendix.E}
+\contentsline {section}{\numberline {\CYRE }\IeC {\CYRB }\IeC {\cyri }\IeC {\cyrb }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrk }\IeC {\cyra } Random}{34}{appendix.F}
+\contentsline {section}{\numberline {\CYRZH }\IeC {\CYRB }\IeC {\cyri }\IeC {\cyrb }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrk }\IeC {\cyra } NumPy}{37}{appendix.G}
+\contentsline {section}{\numberline {\CYRZ }\IeC {\CYRB }\IeC {\cyri }\IeC {\cyrb }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrk }\IeC {\cyra } MathplotLib}{40}{appendix.H}
+\contentsline {section}{\numberline {\CYRI }\IeC {\CYRB }\IeC {\cyri }\IeC {\cyrb }\IeC {\cyrl }\IeC {\cyri }\IeC {\cyro }\IeC {\cyrt }\IeC {\cyre }\IeC {\cyrk }\IeC {\cyra } Pandas}{42}{appendix.I}
+\contentsline {section}{\numberline {\CYRK }\IeC {\CYRF }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }\IeC {\cyrl }\IeC {\cyrsftsn }\IeC {\cyrn }\IeC {\cyra }\IeC {\cyrya } \IeC {\cyrz }\IeC {\cyra }\IeC {\cyrd }\IeC {\cyra }\IeC {\cyrch }\IeC {\cyra }}{44}{appendix.J}
+\contentsfinish 
